@@ -12,12 +12,13 @@
 .address {
   background-color: var(--gridColor);
   /* border: 3px solid #f1f1f1; */
-  padding-top: 5%;
+  padding: 5%;
   text-align: left;
   font-size: 1.25rem;
-  height: var(--gridHeight);
   box-shadow: var(--shadow);
+  font-family: "Red Hat Display";
 }
+
 
 .gridText {
   background-color: var(--gridColor);
@@ -27,6 +28,7 @@
   margin-top: 0.5rem;
   margin-bottom: 2rem;
   box-shadow: var(--shadow);
+  font-family: "Roboto";
 }
 
 .gridImage {

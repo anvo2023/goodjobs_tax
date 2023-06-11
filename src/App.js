@@ -2,7 +2,8 @@ import React from "react";
 
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Social from "./pages/Social";
+import Appointment from "./pages/Appointment";
+
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/">
           <Route index element={<Home />} />
-          <Route path="social" element={<Social />} />
+          <Route path="appointment" element={<Appointment/>} />
         </Route>
       </Routes>
     </HashRouter>
