@@ -9,7 +9,13 @@ const Appointment = () => {
     <div className="container text-center">
       <Navigation />
       <h2 className="text-center">Appointment</h2>
-    
+
+      <iframe
+        // Link to schedule
+        src="https://calendly.com/medbz2k5/30min"
+        className="appointment"
+        title="appointment"
+      ></iframe>
     </div>
   );
 };
