@@ -12,7 +12,7 @@ const ItemGrid = (props) => {
       <Container fluid="md" className="mt-4">
         <Row>
           {props.list.map((item) => (
-            <Col key={item.id} xs={12} md={4}>
+            <Col key={item.id} xs={12} md={6} lg={4}>
               <LazyLoadImage
                 src={item.image}
                 alt={item.id}
