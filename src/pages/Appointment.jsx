@@ -10,6 +10,8 @@ const Appointment = () => {
       <Navigation />
       <h2 className="text-center">Appointment</h2>
 
+      <p>Please select date and time from the menu below</p>
+
       <iframe
         // Link to schedule
         src="https://calendly.com/medbz2k5/30min"
