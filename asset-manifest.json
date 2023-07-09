@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/goodjobs_tax/static/css/main.2d384020.css",
-    "main.js": "/goodjobs_tax/static/js/main.a94e4eca.js",
+    "main.js": "/goodjobs_tax/static/js/main.37161b6f.js",
     "static/js/787.5fb38661.chunk.js": "/goodjobs_tax/static/js/787.5fb38661.chunk.js",
     "index.html": "/goodjobs_tax/index.html",
     "main.2d384020.css.map": "/goodjobs_tax/static/css/main.2d384020.css.map",
-    "main.a94e4eca.js.map": "/goodjobs_tax/static/js/main.a94e4eca.js.map",
+    "main.37161b6f.js.map": "/goodjobs_tax/static/js/main.37161b6f.js.map",
     "787.5fb38661.chunk.js.map": "/goodjobs_tax/static/js/787.5fb38661.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d384020.css",
-    "static/js/main.a94e4eca.js"
+    "static/js/main.37161b6f.js"
   ]
 }
