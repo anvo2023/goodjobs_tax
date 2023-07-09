@@ -14,7 +14,7 @@ const Appointment = () => {
 
       <iframe
         // Link to schedule
-        src="https://calendly.com/medbz2k5/30min"
+        src="https://cal.com/richard-parks-4gvnyg/30min?slot=&date=2023-07-13"
         className="appointment"
         title="appointment"
       ></iframe>
