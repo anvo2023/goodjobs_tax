@@ -34,7 +34,7 @@ const Home = () => {
               <p>
                 <b>Hours:</b> Mon - Fri: 10am - 6pm{" "}
               </p>
-              <p>
+              <p>Tax Season: Mon - Sun: 10am - 9pm</p>  
                 <b>Phone:</b>(714) 638-3302{" "}
               </p>
               {/* <p>Email: goodjobstax@gmail.com | goodjobs92843@sbcglobal.net </p> */}
