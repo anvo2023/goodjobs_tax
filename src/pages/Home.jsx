@@ -18,6 +18,7 @@ const Home = () => {
 
       <div className="titleImage"></div>
       <h2 className="titleText">Good Jobs Inc</h2>
+      <h3 className="titleText">Tax & Accounting Services</h3>
 
       {/* Body */}
 
@@ -35,6 +36,7 @@ const Home = () => {
                 <b>Hours:</b> Mon - Fri: 10am - 6pm{" "}
               </p>
               <p>Tax Season: Mon - Sun: 10am - 9pm</p>  
+              <p>  
                 <b>Phone:</b>(714) 638-3302{" "}
               </p>
               {/* <p>Email: goodjobstax@gmail.com | goodjobs92843@sbcglobal.net </p> */}
