@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/goodjobs_tax/static/css/main.2d384020.css",
-    "main.js": "/goodjobs_tax/static/js/main.37161b6f.js",
+    "main.css": "/goodjobs_tax/static/css/main.8073f8f3.css",
+    "main.js": "/goodjobs_tax/static/js/main.230ea681.js",
     "static/js/787.5fb38661.chunk.js": "/goodjobs_tax/static/js/787.5fb38661.chunk.js",
+    "static/media/personal_tax.jpeg": "/goodjobs_tax/static/media/personal_tax.cab4bdfb59d984f12f4c.jpeg",
+    "static/media/capital_gain_and_losses_medium.jpeg": "/goodjobs_tax/static/media/capital_gain_and_losses_medium.95dad6e4994d4aafc36b.jpeg",
     "index.html": "/goodjobs_tax/index.html",
-    "main.2d384020.css.map": "/goodjobs_tax/static/css/main.2d384020.css.map",
-    "main.37161b6f.js.map": "/goodjobs_tax/static/js/main.37161b6f.js.map",
+    "main.8073f8f3.css.map": "/goodjobs_tax/static/css/main.8073f8f3.css.map",
+    "main.230ea681.js.map": "/goodjobs_tax/static/js/main.230ea681.js.map",
     "787.5fb38661.chunk.js.map": "/goodjobs_tax/static/js/787.5fb38661.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d384020.css",
-    "static/js/main.37161b6f.js"
+    "static/css/main.8073f8f3.css",
+    "static/js/main.230ea681.js"
   ]
 }
