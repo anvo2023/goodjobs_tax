@@ -17,8 +17,11 @@ const Home = () => {
       {/* Title */}
 
       <div className="titleImage"></div>
-      <h2 className="titleText">Good Jobs Inc</h2>
-      <h3 className="titleText">Tax & Accounting Services</h3>
+      <div className="titleText"> 
+      
+        <p className="titleHeading">Good Jobs Inc</p>
+        <p className="titleSubHeading"> Tax & Accounting Services</p>
+      </div>
 
       {/* Body */}
 

@@ -45,10 +45,16 @@
   width: 50%;
   padding: 20px;
   text-align: center;
-  font-size: 5rem;
   font-family: Bebas Neue;
 }
 
+.titleHeading {
+  font-size: 3rem;
+}
+
+.titleSubHeading {
+  font-size: 1.5rem;
+}
 @media (min-width: 760px) and (max-width: 1000px) {
   .titleText {
     font-size: 4rem;

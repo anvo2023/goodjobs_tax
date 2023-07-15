@@ -1,5 +1,6 @@
-import service1 from "../images/personal_tax.jpg";
-import service3 from "../images/caputal_gain_and_losses_medium.jpg";
+import service1 from "../images/personal_tax.jpeg"
+import service3 from "../images/capital_gain_and_losses_medium.jpeg"
+
 export const body = [
   {
     image: service1,

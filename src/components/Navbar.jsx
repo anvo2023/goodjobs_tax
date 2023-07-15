@@ -16,6 +16,9 @@ const Navigation = () => {
               <Nav.Link href="/goodjobs_tax/#/appointment">
                 Schedule Appointment
               </Nav.Link>
+              <Nav.Link href="/goodjobs_tax/#/announcement">
+                Announcement
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
