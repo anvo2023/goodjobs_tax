@@ -8,15 +8,12 @@ import Loading from "../components/Loading";
 const Appointment = () => {
   const [isLoading, setIsLoading] = useState(false);
 
+  // No real effect with data. It's just a 2 second loading icon
   useEffect(() => {
     setIsLoading(true);
-    fetch(
-      "https://opensheet.elk.sh/1xzauyCWXrrCp2Zls8L91tUwUJJhfK9UZWYbDcMZGAOo/Sheet1"
-    )
-      .then((response) => response.json())
-      .then((data) => {
-        setIsLoading(false);
-      });
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
   }, []);
 
   return (
@@ -24,15 +21,7 @@ const Appointment = () => {
       <Navigation />
       <h2 className="text-center">Appointment</h2>
 
-      {isLoading ? (
-        <div>
-          <p>Loading the data ... Please wait</p>
-          <div className="my-2">
-            <Loading />
-            <div className="my-2"></div>
-          </div>
-        </div>
-      ) : null}
+      {isLoading ? <Loading /> : null}
 
       <p>Please select date and time from the menu below</p>
 

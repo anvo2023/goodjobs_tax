@@ -13,6 +13,7 @@ const Announcement = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [data, setData] = useState([]);
 
+  // Loading icon while getting data
   useEffect(() => {
     setIsLoading(true);
     fetch(
@@ -38,15 +39,7 @@ const Announcement = () => {
         Link to Google Sheet
       </a>
 
-      {isLoading ? (
-        <div>
-          <p>Loading the data ... Please wait</p>
-          <div className="my-2">
-            <Loading />
-            <div className="my-2"></div>
-          </div>
-        </div>
-      ) : null}
+      {isLoading ? <Loading /> : null}
 
       <AnnouncementGrid list={data} />
     </div>

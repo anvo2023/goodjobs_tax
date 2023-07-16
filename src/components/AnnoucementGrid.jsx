@@ -12,9 +12,13 @@ const AnnouncementGrid = (props) => {
           {props.list.map((item) => (
             <Col key={item.id} xs={12} md={6} lg={4}>
               <div className="gridText">
-                <p>Date: {item.Date}</p>
-                <p>Title: {item.Title}</p>
-                <p>Story: {item.Story}</p>
+                <div className="title">
+                  <p>
+                    <b>{item.Title}</b>
+                  </p>
+                  <p>{item.Date}</p>
+                </div>
+                <p>{item.Story}</p>
               </div>
             </Col>
           ))}
