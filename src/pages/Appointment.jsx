@@ -14,7 +14,7 @@ const Appointment = () => {
 
       <iframe
         // Link to schedule
-        src="https://cal.com/richard-parks-4gvnyg/30min?slot=&date=2023-07-13"
+        src="https://cal.com/liem-bui-4ewtvl/30min"
         className="appointment"
         title="appointment"
       ></iframe>
