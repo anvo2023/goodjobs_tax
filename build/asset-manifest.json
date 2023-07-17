@@ -1,32 +1,17 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "/goodjobs_tax/static/css/main.8073f8f3.css",
-    "main.js": "/goodjobs_tax/static/js/main.477d8e4a.js",
-=======
-    "main.css": "/goodjobs_tax/static/css/main.7ff2393d.css",
-    "main.js": "/goodjobs_tax/static/js/main.08751629.js",
->>>>>>> a87b57dbc32c3132c8292eaa826e036e540aa236
+    "main.css": "/goodjobs_tax/static/css/main.62c6fe13.css",
+    "main.js": "/goodjobs_tax/static/js/main.071549a3.js",
     "static/js/787.5fb38661.chunk.js": "/goodjobs_tax/static/js/787.5fb38661.chunk.js",
     "static/media/personal_tax.jpeg": "/goodjobs_tax/static/media/personal_tax.cab4bdfb59d984f12f4c.jpeg",
     "static/media/capital_gain_and_losses_medium.jpeg": "/goodjobs_tax/static/media/capital_gain_and_losses_medium.95dad6e4994d4aafc36b.jpeg",
     "index.html": "/goodjobs_tax/index.html",
-<<<<<<< HEAD
-    "main.8073f8f3.css.map": "/goodjobs_tax/static/css/main.8073f8f3.css.map",
-    "main.477d8e4a.js.map": "/goodjobs_tax/static/js/main.477d8e4a.js.map",
+    "main.62c6fe13.css.map": "/goodjobs_tax/static/css/main.62c6fe13.css.map",
+    "main.071549a3.js.map": "/goodjobs_tax/static/js/main.071549a3.js.map",
     "787.5fb38661.chunk.js.map": "/goodjobs_tax/static/js/787.5fb38661.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8073f8f3.css",
-    "static/js/main.477d8e4a.js"
-=======
-    "main.7ff2393d.css.map": "/goodjobs_tax/static/css/main.7ff2393d.css.map",
-    "main.08751629.js.map": "/goodjobs_tax/static/js/main.08751629.js.map",
-    "787.5fb38661.chunk.js.map": "/goodjobs_tax/static/js/787.5fb38661.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.7ff2393d.css",
-    "static/js/main.08751629.js"
->>>>>>> a87b57dbc32c3132c8292eaa826e036e540aa236
+    "static/css/main.62c6fe13.css",
+    "static/js/main.071549a3.js"
   ]
 }

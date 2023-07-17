@@ -17,7 +17,7 @@ const Announcement = () => {
   useEffect(() => {
     setIsLoading(true);
     fetch(
-      "https://opensheet.elk.sh/1VMPbpnL8NWuZXmXNxWrdljLIT-lCas3Y4Dc9QViYPYU/Sheet1"
+      "https://opensheet.elk.sh/1qIOEj1p2NpluP-TQMkFdYjmGU4bx5xcZLAF_YWw03co/Sheet1"
     )
       .then((response) => response.json())
       .then((data) => {
