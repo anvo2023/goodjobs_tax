@@ -4,7 +4,7 @@
   --titleImageUrl: url("https://images.pexels.com/photos/209224/pexels-photo-209224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   --gridHeight: 250px;
   --shadow: 0 3px 10px rgba(104, 104, 104, 0.3);
-  --gridColor: #daefe7;
+  --gridColor: #eeeaf2;
 }
 
 /* Main Styles */
@@ -28,6 +28,7 @@
   margin-bottom: 2rem;
   box-shadow: var(--shadow);
   font-family: "Roboto";
+  word-wrap: break-word;
 }
 
 .gridImage {
@@ -112,4 +113,9 @@
 
 .title {
   background-color: #ece0b4;
+}
+
+.showMoreStyle {
+  color: darkblue;
+  text-align: right;
 }

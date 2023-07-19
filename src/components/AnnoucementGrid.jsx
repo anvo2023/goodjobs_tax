@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import "../style/main.css";
 
 const AnnouncementGrid = (props) => {
+  const [showMore, setShowMore] = useState(false);
+
   return (
     <>
       <h4 className="text-center mt-5">{props.title}</h4>
@@ -18,7 +21,17 @@ const AnnouncementGrid = (props) => {
                   </p>
                   <p>{item.Date}</p>
                 </div>
-                <p>{item.Story}</p>
+                <p>{showMore ? item.Story : item.Story.substring(0, 150)}</p>
+                <span
+                  onClick={() => setShowMore(!showMore)}
+                  className="showMoreStyle"
+                >
+                  {item.Story.length > 200
+                    ? showMore
+                      ? "Hide"
+                      : "Show More"
+                    : null}
+                </span>
               </div>
             </Col>
           ))}
