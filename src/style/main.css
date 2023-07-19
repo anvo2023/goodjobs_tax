@@ -65,14 +65,23 @@
   .titleSubHeading {
     font-size: 1.5rem;
   }
+  .titleText {
+    width: 75%;
+    transform: translate(20%, -150%);
+  }
 }
 
 @media (max-width: 760px) {
   .titleHeading {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .titleSubHeading {
     font-size: 1.2rem;
+  }
+  .titleText {
+    width: 85%;
+    transform: translate(10%, -150%);
+    padding: 5px;
   }
 }
 
